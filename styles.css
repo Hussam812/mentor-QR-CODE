@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+
+
+
+* {
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ***MOBILE 375px ****/
+@media (width: 375px) { 
+        
+    .container {
+        padding: 85px 30px;
+        background-color: hsl(220, 15%, 55%) ;
+    }
+    .container .card{
+        padding: 18px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-block-end: 35px;
+    }
+    .card-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 17px;
+        padding-inline: 40px;
+        margin-block-end: 20px ;
+        color: hsl(218, 44%, 22%);
+    }
+
+    .card-text {
+        font-size: 15px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: hsl(212, 45%, 89%);
+        padding-inline: 45;
+    }
+    .attribution{
+        padding-block-start: 5px ;
+    }
+}
+
+/* ***DESKTOP  1440px ****/
+
+@media (width: 1440px) { 
+        
+    .container {
+        padding: 138px 505px;
+        background-color: hsl(220, 15%, 55%) ;
+    }
+    .container .card{
+        padding: 15px;
+    
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-block-end: 30px;
+    }
+    .card-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 17px;
+        padding-inline: 40px;
+        margin-block-end: 20px ;
+        color: hsl(218, 44%, 22%);
+    }
+
+    .card-text {
+        font-size: 15px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: hsl(212, 45%, 89%);
+        padding-inline: 45;
+        padding-block-end: 44px;
+    }
+    .attribution{
+        padding-block-start: 5px ;
+    }
+}
